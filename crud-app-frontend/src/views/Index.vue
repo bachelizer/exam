@@ -112,6 +112,7 @@ export default {
   components: { InstructorForm, Dashboard },
   created() {
     // add your code here..
+    // fetch Instructors after mount
   },
   methods: {
     ...mapActions({
