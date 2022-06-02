@@ -43,7 +43,7 @@ namespace crud_app_backend
                 options.AddDefaultPolicy(
                     builder =>
                     {
-                        builder.WithOrigins( "")
+                        builder.WithOrigins( "*** ADD THE ORIGINS HERE ***")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials();
